@@ -5,7 +5,7 @@ const nunjucks = require('nunjucks');
 const app = express();
 const APP_PORT = 8080;
 
-nunjucks.configure(path.resolve(__dirname, '../views'), {
+nunjucks.configure(path.resolve(__dirname, 'views'), {
     autoescape: true,
     express: app
 });
